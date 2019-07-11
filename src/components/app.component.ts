@@ -130,7 +130,7 @@ export class BroncoCornerNavbar extends LitElement {
                 Hides corner, when scrolled to to the top, if hideOnTop is activated.
                 On mobile devices, it is always shown -->
             <div class="icon ${this.open ? 'open' : ''}
-            ${(((this.scrolledTop && this.hideOnTop) || this.isScrolling) && !this.mobile) && this.hideOnScrolling ? 'hide' : 'show showIcon'}"
+            ${(((this.scrolledTop && this.hideOnTop) || this.isScrolling) && !this.mobile) && this.hideOnScrolling ? 'hide' : 'show'}"
               @click=${() =>
                 this.open ? this.open
                     = false : this.open = true}>
