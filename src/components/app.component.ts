@@ -16,8 +16,10 @@ const componentCSS = require('./app.component.scss');
  * @cssprop --item-shadow-selected - Shadow of item, when selected
  * @cssprop --position - Default: fixed
  * @cssprop --primary-color - Change primary color easily
+ * @cssprop --right - Position of icon
  * @cssprop --shadow-x - Shadow-x of item
  * @cssprop --shadow-y - Shadow-y of item
+ * @cssprop --top - Position of icon
  */
 @customElement('bronco-corner-navbar')
 export class BroncoCornerNavbar extends LitElement {

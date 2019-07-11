@@ -52,8 +52,10 @@ Modern corner circular navbar built with Lit-Element
 | `--item-shadow-selected`      | Shadow of item, when selected                    |
 | `--position`                  | Default: fixed                                   |
 | `--primary-color`             | Change primary color easily                      |
+| `--right`                     | Position of icon                                 |
 | `--shadow-x`                  | Shadow-x of item                                 |
 | `--shadow-y`                  | Shadow-y of item                                 |
+| `--top`                       | Position of icon                                 |
 
 
 

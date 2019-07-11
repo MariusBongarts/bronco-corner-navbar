@@ -10,8 +10,10 @@
   --item-shadow-selected: white;
   --position: fixed;
   --primary-color: rgb(29, 202, 255);
+  --right: 40px;
   --shadow-x: var(--shadow-x);
   --shadow-y: var(--shadow-y);
+  --top: 10px;
 }
 
 .hide {
@@ -30,8 +32,8 @@
 
 .icon {
   position: var(--position);
-  top: 10px;
-  right: 40px;
+  top: var(--top);
+  right: var(--right);
   width: 50px;
   height: 50px;
   display: block;
