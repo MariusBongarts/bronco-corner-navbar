@@ -20,6 +20,7 @@ const componentCSS = require('./app.component.scss');
  * @cssprop --shadow-x - Shadow-x of item
  * @cssprop --shadow-y - Shadow-y of item
  * @cssprop --top - Position of icon
+ * @cssprop --z-index - Default: 3
  */
 @customElement('bronco-corner-navbar')
 export class BroncoCornerNavbar extends LitElement {

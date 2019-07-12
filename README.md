@@ -56,6 +56,7 @@ Modern corner circular navbar built with Lit-Element
 | `--shadow-x`                  | Shadow-x of item                                 |
 | `--shadow-y`                  | Shadow-y of item                                 |
 | `--top`                       | Position of icon                                 |
+| `--z-index`                   | Default: 3                                       |
 
 
 
