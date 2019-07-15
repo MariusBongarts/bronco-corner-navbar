@@ -1,6 +1,8 @@
 {
   "name": "@marius/bronkocornernavbar",
   "version": "1.0.0",
+  "identifier": "bronco-corner-navbar",
+  "identifier-git": "broncocornernavbar",
   "description": "Modern circular corner navbar",
   "private": true,
   "main": "index.js",
